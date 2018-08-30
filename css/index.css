@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+:root {
+    font-family: 'Lato', sans-serif;
+}    
+body {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 5px;
+} 
+header nav ul {
+    padding-left: 0;
+}
+header nav {
+    margin: 0 5px;
+}
+header nav ul li{
+    list-style-type: none;
+}
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+@media (min-width: 400px){
+    header h1, nav{
+        display: flex;
+            }
+    header nav ul{
+        display: flex;
+        flex: 1;
+        align-items: center;
+    }
+    header nav ul li{
+        margin-left: 8%;
+    }
+header div.banner {
+    height: 500px;
+    background-image: url(../img/ernesthemingwaywriting.jpg);
+    background-position: center;
+    background-size: cover; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    }   
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    text-indent: 50px;
+    }    
+}
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+h3 {
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+    font-style: italic;
+    text-align: center;
+}
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
+body {
+    background-color: #66CDAA;
+}
+
+div a img{
+    border-radius: 10px;
+    border-radius: 10px;
+    width: 100px;
+    align-items: center;
+    
+}
+.group-item {
+    text-align: center;
+}
+div a img:first-child {
+    margin-right: 70px;
+}
+div a img:last-child {
+    margin-left: 70px;
+}
+section form {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #008B8B; 
+}
