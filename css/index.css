@@ -24,6 +24,23 @@ header nav ul li a{
 header nav ul li a:hover {
     text-decoration: underline;
 }
+li a:hover {
+    background-color: #808080;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+}
 @media (min-width: 400px){
     header h1, nav{
         display: flex;
@@ -95,4 +112,48 @@ footer {
     font-size: 15px;
     font-weight: bold;
     background-color: #008B8B; 
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-weight: bold;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+input[type=reset]:hover {
+    background-color: #45a049;
+}
+input[type=submit] {
+    background-color: #0000FF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=reset] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-weight: bold;
+} 
+@media (max-width: 400px){
+    .banner {
+       text-align: center;
+    }  
 }
