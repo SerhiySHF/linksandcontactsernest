@@ -85,7 +85,7 @@ h4 {
     text-align: center;
 }
 body {
-    background-color: #66CDAA;
+     background-image: linear-gradient(#e8f1e8, #8fbc8f, #e8f1e8);
 }
 
 div a img{
@@ -111,7 +111,7 @@ footer {
     text-align: center;
     font-size: 15px;
     font-weight: bold;
-    background-color: #008B8B; 
+    background-color: #e4fbf8; 
 }
 .container {
     border-radius: 5px;
